@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1a446e, #75e2c1); /* Light gradient background */
+}
+
+.navbar {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.posts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.post {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 80%;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.project-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.like-button, .comment-button {
+    margin-top: 10px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.like-button:hover, .comment-button:hover {
+    background-color: #45a049;
+}
+
+.projects-container {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(191, 225, 218, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.project button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF; 
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.project button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px); 
+} 
+
+.project button:active {
+    background-color: #004494; 
+    transform: translateY(0); 
+}
+

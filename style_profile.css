@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f3f2ef;
+}
+
+.profile-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #0073b1;
+}
+
+.profile-info {
+    margin-left: 20px;
+}
+
+.profile-info h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.profile-info .headline {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.profile-info .location {
+    font-size: 1rem;
+    color: #888;
+}
+
+.about-section,
+.education-section,
+.posts-section {
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #0073b1;
+    margin-bottom: 10px;
+}
+
+.about-section p,
+.education-item p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.education-item {
+    margin-bottom: 20px;
+}
+
+.posts-section .post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.posts-section img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.post-info h3 {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.post-info p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 5px;
+}
